@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Poppins:wght@100&display=swap');
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url("corporate.jpg") center center;
+    background-size: cover ;
+}
+
+.overlay{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+}
+
+.title{
+    margin-top: 10px;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.col{
+    margin-top: 21px;
+    width: 1000px;
+    /* height: 100px; */
+    color: white;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.col div{
+    width: 250px;
+     text-align: center;
+}
+
+input{
+background-color: rgba(225,225,255,0.9); 
+   height: 50px;
+    width: 60%;
+    border-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
